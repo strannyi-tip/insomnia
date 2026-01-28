@@ -6,7 +6,7 @@
         "ext-curl": "*",
         "ext-fileinfo": "*"
     },
-    "license": "gpl3-or-later",
+    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "StrannyiTip\\Insomnia\\": "src/"
