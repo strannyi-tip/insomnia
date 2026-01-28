@@ -8,11 +8,11 @@
 ```php
 $insomnia = new Insomnia();
 
-$insomnia
-    //Setup the address and port for connection
-    ->connect('http://127.0.0.1?name=Nautilus', 8000)
-    //Send GET with parameters
-    ->get();
+$result = $insomnia
+            //Setup the address and port for connection
+            ->connect('http://127.0.0.1?name=Nautilus', 8000)
+            //Send GET with parameters
+            ->get();
 
 if ($result) {
   //Get result as array
