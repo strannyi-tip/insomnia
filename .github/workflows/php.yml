@@ -44,6 +44,6 @@ jobs:
     - name: Run local server suite
       run: php -S 127.0.0.1:8000 -t tests/server &2>&1
     - name: Run proxy srver
-      run: php -S 127.0.0.1:8000 -t tests/proxy-server &2>&1
+      run: php -S 127.0.0.1:33333 -t tests/proxy-server &2>&1
     - name: Run tests suite
       run: vendor/bin/codecept run Unit
