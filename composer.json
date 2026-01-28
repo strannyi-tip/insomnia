@@ -1,0 +1,29 @@
+{
+    "name": "strannyi_tip/insomnia",
+    "description": "cURL based HTTP client",
+    "type": "library",
+    "require": {
+        "ext-curl": "*",
+        "ext-fileinfo": "*"
+    },
+    "license": "gpl3-or-later",
+    "autoload": {
+        "psr-4": {
+            "StrannyiTip\\Insomnia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artur Skakunov",
+            "email": "0x00.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "codeception/codeception": "^5.3@dev",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*",
+        "codeception/module-cli": "dev-master",
+        "ext-http": "*"
+    }
+}
